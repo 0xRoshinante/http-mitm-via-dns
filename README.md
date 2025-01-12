@@ -1,7 +1,7 @@
 # http-mitm-via-dns
 DNS Tabanlı HTTP/HTTPS Proxy Aracı
 
-Bu araç, gelen HTTP ve HTTPS isteklerini hedef sunucuya ileten ve yanıtları istemciye döndüren, dns tabanlı basit bir mitm aracıdır.
+Bu araç, DNS yanıltması ile gelen HTTP isteklerini replike ederek harici bir istemciyle orijinal sunucuya proxyden geçirerek ileten dns tabanlı basit bir mitm aracıdır.
 
 ## Özellikler
 
