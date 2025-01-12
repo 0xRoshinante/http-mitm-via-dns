@@ -7,7 +7,6 @@ Bu araç, gelen HTTP ve HTTPS isteklerini hedef sunucuya ileten ve yanıtları i
 
 - HTTP ve HTTPS protokollerini destekler.
 - İsteğe bağlı olarak başka bir proxy sunucu üzerinden bağlantı kurabilir.
-- SSL sertifikaları kullanarak güvenli bağlantılar sağlayabilir.
 
 ## Gereksinimler
 
