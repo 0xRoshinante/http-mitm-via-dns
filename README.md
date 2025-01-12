@@ -43,5 +43,5 @@ python http-mitm-via-dns.py --port PORT_NUMARASI [--proxy-host PROXY_IP] [--prox
 
 Secure olmayan bağlantılar için:
 ```bash
-python proxy.py --port PORT_NUMARASI [--proxy-host PROXY_IP] [--proxy-port PROXY_PORT]
+python http-mitm-via-dns.py --port PORT_NUMARASI [--proxy-host PROXY_IP] [--proxy-port PROXY_PORT]
 ```
