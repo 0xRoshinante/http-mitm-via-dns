@@ -41,11 +41,11 @@ class ProxyHandler(BaseHTTPRequestHandler):
         self.do_request("PUT")
     def do_DELETE(self):
         self.do_request("DELETE")
-    def do_DELETE(self):
+    def do_OPTIONS(self):
         self.do_request("OPTIONS")
-    def do_DELETE(self):
+    def do_TRACE(self):
         self.do_request("TRACE")
-    def do_DELETE(self):
+    def do_TRACK(self):
         self.do_request("TRACK")
 def run(server_class=HTTPServer, handler_class=ProxyHandler, port=8080, target_port=80, proxy_host=None, proxy_port=None, certfile=None, keyfile=None):
     server_address = ('', port)
@@ -66,7 +66,7 @@ def run(server_class=HTTPServer, handler_class=ProxyHandler, port=8080, target_p
         httpd.secure = False
     httpd.serve_forever()
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="DNS tabanlı HTTP/HTTPS Proxy Aracı")
+    parser = argparse.ArgumentParser(description="DNS tabanlı HTTP/HTTPS MITM Aracı")
     parser.add_argument("--port", type=int, required=True, help="Dinlenecek port numarası ")
     parser.add_argument("--proxy-host", type=str, help="Proxy sunucu IP adresi ")
     parser.add_argument("--proxy-port", type=int, help="Proxy sunucu port numarası ")
