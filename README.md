@@ -23,7 +23,7 @@ pip install requests
 
 Projeyi klonlayın:
 ```bash
-git clone [https://github.com/kullaniciadi/proje-adi.git](https://github.com/0xRoshinante/http-mitm-via-dns)
+git clone https://github.com/0xRoshinante/http-mitm-via-dns
 cd http-mitm-via-dns
 ```
 
